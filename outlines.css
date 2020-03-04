@@ -99,12 +99,18 @@ body {
   margin: 0 0 32px;
 }
 
+.skills{
+text-align: center;
+}
+
+}
 .skills-list {
   margin: 0;
   padding: 0;
 }
 
 .skills-list dt {
+  margin-left: 490px;
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
@@ -112,14 +118,16 @@ body {
 
 .skill-html {
   background-image: url("img/icon-html.svg");
+  text-align: left;
 }
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+  text-align: left;
 }
 
 .level {
-  margin: 4px 0 16px;
+  margin: 4px 490px 16px;
   padding: 0;
   height: 14px;
   font-size: 0;
@@ -171,6 +179,7 @@ body {
 }
 
 .page-footer {
+  margin-top: -60px;
   padding: 20px 0;
   background-color: #00417d;
   color: #ffffff;
